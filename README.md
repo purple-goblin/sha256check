@@ -14,3 +14,6 @@ Searching ftp://mirrors.ucr.ac.cr/OpenBSD/
 Two defective mirrors are excluded:
 * mirrors.isu.net.sa/pub/ftp.openbsd.org
 * www.obsd.si/pub/OpenBSD
+
+Of course, a clever attacker might be running `s/<actual sha256>/<evil sha256>/g`
+on all your traffic. 
